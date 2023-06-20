@@ -220,8 +220,6 @@ def main():
     print('\tSUM           => ' + str(sum_size) + ' [bytes]')
     print('\tEfficiency    => ' + str(efficiency) + '%')
     print('\tavg word      => ' + str(average_length))
-
-    print('\tEquality correct ✓')
     print('\tCompression Ratio => ' + str(o_size / sum_size))
     print('\tSpace savings     => ' + str(1 - sum_size / o_size))
 
